@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --color-primary: #121214;
+  --color-white: #fff;
+  --color-purple: #663399;
+}
+
+html,
+body {
+  background-color: var(--color-primary);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* HEADER */
+#header {
+  background-color: var(--color-primary);
+  margin-bottom: 40px;
+  position: sticky;
+  padding: 22px 0;
+  top: 0;
+  width: 100%;
+}
+
+.header__container {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logotype__link {
+  color:var(--color-white);
+  text-decoration: none;
+}
+
+.logotype__title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.navigation__menu {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.navigation__menu___item {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.navigation__menu__icon {
+  width: 24px;
+}
+
+.navigation__menu__link {
+  color: var(--color-white);
+  transition: all ease-in-out .2s;
+  padding: 4px;
+}
+
+.navigation__menu__link:hover {
+  outline: 2px solid var(--color-purple);
+  color: var(--color-purple);
+  font-weight: bold;
+}
+
+/* INTRODUCTION */
+#introduction {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.introduction__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+  width: 90%;
+}
+
+.introduction__picture {
+  background-image: url('/assets/images/avatar-metaverse.png');
+  background-color: var(--color-purple);
+  background-size: cover;
+  background-position: center;
+  border-radius: 40% 15% 40% 15%;
+  height: 240px; width: 240px;
+  transition: all ease-in-out .6s;
+}
+
+.introduction__picture:hover {
+  background-color: #eead2d;
+  border-radius: 50%;
+}
+
+.introduction__content {
+
+  color: #fff;
+  padding: 20px;
+  width: 400px;
+}
+
+.link__certificate {
+  color:#2DC5FA;
+  text-decoration: underline;
+}
+
+.introduction__content___title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.introduction__content___paragraph {
+  line-height: 22px;
+}
+
+/* PROJECTS */
+
+.section {
+  color: var(--color-white);
+  padding: 20px 0;
+}
+
+.section__container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.section__title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.section__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.project__card {
+  outline: 1px solid var(--color-white);
+  height: 280px; width: 280px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all ease-in-out .3s;
+}
+
+.project__card___links {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+
+}
+
+.project__card___links a {
+  outline: 1px solid var(--color-white);
+  color: #fff;
+  padding: 5px;
+}
+
+.project__card___links a:hover {
+  outline: 0;
+  background-color: var(--color-purple);
+}
+
+.project__card___image {
+  height: 160px;
+  width: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.course__card {
+  height: 240px; width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course__card___image {
+  height: 160px; width: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+}
+
+.course__card___title {
+  font-size: 16px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.course__card___school {
+  font-size: 14px;
+}
+
+/* EXPERIENCES */
+
+
+/* FOOTER */
+.footer {
+  background-color: #414141;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
