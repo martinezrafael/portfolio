@@ -74,7 +74,7 @@ const projetos = [
   ),
 
   new Projeto(
-    "Pagina de Captura",
+    "Página de captura de lead",
     "https://martinezrafael.github.io/pagina-captura-curso-progbr/",
     "https://github.com/martinezrafael/pagina-captura-curso-progbr",
     "Acessar site",
