@@ -1,17 +1,15 @@
 #introduction {
-  height: 60vh;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-direction: column;
+  height: 70vh;
+  justify-content: center;
 }
 
 .introduction__container {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 20px 0;
   width: 90%;
 }
 
@@ -26,23 +24,21 @@
 }
 
 .introduction__picture:hover {
-  background-color: #eead2d;
+  background-color: var(--color-yellow);
   border-radius: 50%;
 }
 
 .introduction__content {
-
-  color: #fff;
-  padding: 20px;
-  width: 400px;
+  color: var(--color-white);
+  padding: 14px;
+  width: 440px;
 }
 
 .introduction__content___title {
-  font-size: 36px;
-  font-weight: 900;
+  font-size:32px;
   margin-bottom: 10px;
 }
 
 .introduction__content___paragraph {
-  line-height: 22px;
+  line-height: 1em;
 }
