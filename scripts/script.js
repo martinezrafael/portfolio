@@ -187,4 +187,8 @@ window.onload = () => {
 
 };
 
+// MENU MOBILE
 
+function initMenuMobile () {
+
+}

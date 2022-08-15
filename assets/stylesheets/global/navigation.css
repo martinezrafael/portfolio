@@ -1,0 +1,26 @@
+.navigation__menu {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.navigation__menu___item {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.navigation__menu__icon {
+  width: 24px;
+}
+
+.navigation__menu__link {
+  color: var(--color-white);
+  transition: all ease-in-out .2s;
+  padding: 4px;
+}
+
+.navigation__menu__link:hover {
+  outline: 2px solid var(--color-purple);
+  color: var(--color-purple);
+  font-weight: bold;
+}

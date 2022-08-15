@@ -1,0 +1,27 @@
+#header {
+  background-color: var(--color-primary);
+  margin-bottom: 40px;
+  position: sticky;
+  padding: 22px 0;
+  top: 0;
+  width: 100%;
+}
+
+.header__container {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logotype__link {
+  color:var(--color-white);
+  text-decoration: none;
+}
+
+.logotype__title {
+  font-size: 24px;
+  font-weight: 900;
+}
