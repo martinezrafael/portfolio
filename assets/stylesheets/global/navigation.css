@@ -1,16 +1,15 @@
 .navigation__menu {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 
 .navigation__menu___item {
-  font-size: 15px;
-  text-transform: uppercase;
+  transition: all ease-in-out .3s;
 }
 
-.navigation__menu__icon {
-  width: 24px;
+.navigation__menu___item:hover {
+  text-transform: uppercase;
 }
 
 .navigation__menu__link {
@@ -20,7 +19,6 @@
 }
 
 .navigation__menu__link:hover {
-  outline: 2px solid var(--color-purple);
-  color: var(--color-purple);
   font-weight: bold;
+  color: var(--color-purple);
 }

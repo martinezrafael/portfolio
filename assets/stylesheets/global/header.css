@@ -1,19 +1,18 @@
 #header {
   background-color: var(--color-primary);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: sticky;
-  padding: 22px 0;
+  padding: 14px 0;
   top: 0;
   width: 100%;
 }
 
 .header__container {
-  width: 90%;
-  margin: auto;
-
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
+  margin: auto;
+  width: 90%;
 }
 
 .logotype__link {
@@ -21,7 +20,21 @@
   text-decoration: none;
 }
 
+.logotype__link:hover {
+  color: var(--color-purple);
+}
+
 .logotype__title {
   font-size: 24px;
   font-weight: 900;
+  text-transform: lowercase;
 }
+
+.logotype__title span {
+  color: var(--color-purple);
+}
+
+.logotype__title span:hover {
+  color: var(--color-white);
+}
+
