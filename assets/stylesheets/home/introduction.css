@@ -14,7 +14,7 @@
 }
 
 .introduction__picture {
-  background-image: url('/assets/images/avatar-metaverse.png');
+  background-image: url('/assets/images/home/avatar-metaverse.png');
   background-color: var(--color-purple);
   background-size: cover;
   background-position: center;

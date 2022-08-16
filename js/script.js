@@ -106,13 +106,13 @@ const cursos = [
   new Curso(
     "Web Development Bootcamp",
     "Ironhack São Paulo",
-    "/assets/icons/ironhack-logo.png"
+    "/assets/images/home/ironhack-logo.png"
   ),
 
   new Curso(
     "Desenvolvimento Web Fullstack",
     "Programador BR",
-    "./assets/icons/progbr-logo.png"
+    "/assets/images/home/progbr-logo.png"
   ),
 ];
 
@@ -187,8 +187,3 @@ window.onload = () => {
 
 };
 
-// MENU MOBILE
-
-function initMenuMobile () {
-
-}
