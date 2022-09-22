@@ -38,21 +38,12 @@ const projetos = [
   ),
 
   new Projeto(
-    "thequiz v1",
+    "thequiz",
     "https://martinezrafael.github.io/the-quiz-project/",
     "https://github.com/martinezrafael/the-quiz-project",
     "Acessar site",
     "Ver Código",
     'https://user-images.githubusercontent.com/33470634/184411431-c617fd09-60e6-454a-9b8a-084d734d7ef7.png'
-  ),
-
-  new Projeto(
-    "thequiz v2",
-    "https://thequiz.vercel.app/pages/game.html",
-    "https://github.com/martinezrafael/thequiz",
-    "Acessar site",
-    "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/184420017-7efad556-8440-4173-b64f-30ec2104b57f.png'
   ),
 
   new Projeto(
@@ -80,24 +71,6 @@ const projetos = [
     "Acessar site",
     "Ver Código",
     'https://user-images.githubusercontent.com/33470634/184373664-82ea1213-5320-49e9-8884-f0544e1dffef.png'
-  ),
-
-  new Projeto(
-    "Space Rent",
-    "https://spacerent.vercel.app/",
-    "https://github.com/martinezrafael/space-rent-client",
-    "Acessar site",
-    "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/167211600-542b1ead-f869-48dd-847a-7311681ab4d4.png'
-  ),
-
-  new Projeto(
-    "Cardápio",
-    "https://elaborate-druid-9f33fd.netlify.app/cardapio-barra.html",
-    "https://github.com/martinezrafael/cardapios-lafruteria",
-    "Acessar site",
-    "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/184415906-4b956c14-8c23-4de0-ad9c-a463e76b32b6.png'
   ),
 ];
 
