@@ -1,7 +1,14 @@
 //Funções construtoras
 
 //função que criar um novo propjeto através do instanciamento
-function Projeto(title, linkDeploy, linkRepository, titleLink1, titleLink2, image) {
+function Projeto(
+  title,
+  linkDeploy,
+  linkRepository,
+  titleLink1,
+  titleLink2,
+  image
+) {
   this.title = title;
   this.link = linkDeploy;
   this.linkRepository = linkRepository;
@@ -34,7 +41,7 @@ const projetos = [
     "https://github.com/martinezrafael/frases",
     "Acessar site",
     "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/184424142-5114128b-ea9c-47f4-90d7-7d8ceab60842.png'
+    "https://user-images.githubusercontent.com/33470634/184424142-5114128b-ea9c-47f4-90d7-7d8ceab60842.png"
   ),
 
   new Projeto(
@@ -43,7 +50,7 @@ const projetos = [
     "https://github.com/martinezrafael/the-quiz-project",
     "Acessar site",
     "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/184411431-c617fd09-60e6-454a-9b8a-084d734d7ef7.png'
+    "https://user-images.githubusercontent.com/33470634/184411431-c617fd09-60e6-454a-9b8a-084d734d7ef7.png"
   ),
 
   new Projeto(
@@ -52,7 +59,7 @@ const projetos = [
     "https://github.com/martinezrafael/projeto-churrascometro",
     "Acessar site",
     "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/184413999-24883700-777b-4635-b9cb-d74dfe1ed8d9.png'
+    "https://user-images.githubusercontent.com/33470634/184413999-24883700-777b-4635-b9cb-d74dfe1ed8d9.png"
   ),
 
   new Projeto(
@@ -61,7 +68,7 @@ const projetos = [
     "https://github.com/martinezrafael/desafio1-codelandia",
     "Acessar site",
     "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/184413252-52cda34d-70ff-46c4-91f6-99b7eb5b9b03.png'
+    "https://user-images.githubusercontent.com/33470634/184413252-52cda34d-70ff-46c4-91f6-99b7eb5b9b03.png"
   ),
 
   new Projeto(
@@ -70,7 +77,7 @@ const projetos = [
     "https://github.com/martinezrafael/pagina-captura-curso-progbr",
     "Acessar site",
     "Ver Código",
-    'https://user-images.githubusercontent.com/33470634/184373664-82ea1213-5320-49e9-8884-f0544e1dffef.png'
+    "https://user-images.githubusercontent.com/33470634/184373664-82ea1213-5320-49e9-8884-f0544e1dffef.png"
   ),
 ];
 
@@ -87,10 +94,22 @@ const cursos = [
     "Programador BR",
     "/assets/images/home/progbr-logo.png"
   ),
+  new Curso(
+    "Desenvolvimento Frontend & UX/UI Design",
+    "Origamid",
+    "/assets/images/home/origamid.png"
+  ),
 ];
 
 //Função que cria um card quadrado
-const cardSquare = (arr, rootElement, classCard, classTitle, classLinks, classImage) => {
+const cardSquare = (
+  arr,
+  rootElement,
+  classCard,
+  classTitle,
+  classLinks,
+  classImage
+) => {
   let root = document.querySelector(rootElement);
 
   root.innerHTML = arr
@@ -137,7 +156,6 @@ const cardRound = (
     .join("");
 };
 
-
 //Quando o navegador carrega a minha página, ele executa as minhas funções
 window.onload = () => {
   cardSquare(
@@ -157,6 +175,4 @@ window.onload = () => {
     "course__card___title",
     "course__card___school"
   );
-
 };
-
